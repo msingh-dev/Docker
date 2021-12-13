@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T15:04:47.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="aSxhnT0akAU5LMxIiuYD" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T17:08:00.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="EGSyymzEDImOb8JY46FU" version="15.9.4" type="github">
   <diagram id="IknwtHshoYGCL5hlVDhQ" name="Page-1">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -94,6 +94,82 @@
         </mxCell>
         <mxCell id="pXuJ7uZJgobYmxEhNwWQ-20" value="&lt;h1&gt;&lt;span style=&quot;color: rgb(101 , 123 , 131) ; font-family: &amp;#34;consolas&amp;#34; ; font-style: italic&quot;&gt;&lt;font style=&quot;font-size: 22px&quot;&gt;# Series of Steps happened in background:&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# 1. Download alpine image&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# --------------------------------------------&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# 2. Get Image from the previous Steps&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# 3. Create a container out of it. &lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# 4. Run &quot;apk add --update redis&quot; in it.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# 5. Take snapshot of that container&#39;s FS.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# 6. Shutdown that temporary container.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# 7. Get Image ready for the next instruction.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# ----------------------------------------------&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# 8. &amp;nbsp;Get image from the last step.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# 9. Create a container out of it. &lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# 10. Tell container it should run &#39;redis-server&#39;&lt;br/&gt;when started.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# 11. Shutdown that temporary container.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# 12. Get Image ready for next instruction.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;# 13. No more steps !&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0in ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt ; color: #657b83&quot;&gt;&lt;span style=&quot;font-style: italic&quot; lang=&quot;en-IN&quot;&gt;# 14. Output is the&lt;/span&gt;&lt;span style=&quot;font-style: italic&quot; lang=&quot;en-US&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-style: italic&quot; lang=&quot;en-IN&quot;&gt;image generated from previous step.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="240" y="870" width="660" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1310" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-22" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1310" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-23" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1310" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-24" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1310" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-28" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Tagging an Image:&lt;/font&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1260" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-29" value="-t manishsingh/redis:latest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1320" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-30" value="build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-31" value="docker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-32" value="." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-33" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1470" width="820" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-34" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="pXuJ7uZJgobYmxEhNwWQ-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="1380" as="sourcePoint" />
+            <mxPoint x="550" y="1380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1430" />
+              <mxPoint x="550" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-35" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1470" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-36" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1470" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-37" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="595" y="1470" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-38" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1470" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-39" value="latest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1485" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-40" value=":" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1490" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-41" value="redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1485" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-42" value="/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1485" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-43" value="manishsingh" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1485" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-44" value="your docker id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1560" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-45" value="Repo/Project Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1560" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pXuJ7uZJgobYmxEhNwWQ-46" value="version" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="755" y="1550" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
